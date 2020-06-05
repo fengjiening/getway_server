@@ -1,0 +1,378 @@
+card_service Sun, 26 Apr 2020 16:33:46 server  22  INFO     启动 service_interface 【接口服务】
+card_service Sun, 26 Apr 2020 16:35:24 server  22  INFO     启动 service_interface 【接口服务】
+card_service Sun, 26 Apr 2020 16:35:26 server  17  INFO     测试接口【 {'message': None, 'code': 0, 'data': {'a': 1}}】
+card_service Sun, 26 Apr 2020 16:35:26 server  18  INFO     com【 1】
+card_service Sun, 26 Apr 2020 16:37:53 server  27  INFO     启动 service_interface 【接口服务】
+card_service Sun, 26 Apr 2020 16:38:20 server  27  INFO     启动 service_interface 【接口服务】
+card_service Sun, 26 Apr 2020 16:39:52 server  27  INFO     启动 service_interface 【接口服务】
+card_service Sun, 26 Apr 2020 16:41:54 server  31  INFO     启动 service_interface 【接口服务】
+card_service Sun, 26 Apr 2020 16:43:30 server  31  INFO     启动 service_interface 【接口服务】
+card_service Sun, 26 Apr 2020 16:44:21 server  33  INFO     启动 service_interface 【接口服务】
+card_service Sun, 26 Apr 2020 16:45:23 server  33  INFO     启动 service_interface 【接口服务】
+card_service Sun, 26 Apr 2020 16:46:23 server  33  INFO     启动 service_interface 【接口服务】
+card_service Sun, 26 Apr 2020 16:46:25 server  33  INFO     启动 service_interface 【接口服务】
+card_service Sun, 26 Apr 2020 16:46:38 server  28  INFO     测试接口【 {'code': 0, 'message': 'success', 'data': {'a': 1}}】
+card_service Sun, 26 Apr 2020 16:46:38 server  29  INFO     com【 1】
+card_service Sun, 26 Apr 2020 16:46:47 server  28  INFO     测试接口【 {'code': 0, 'message': 'success', 'data': {'a': 1}}】
+card_service Sun, 26 Apr 2020 16:46:47 server  29  INFO     com【 1】
+card_service Sun, 26 Apr 2020 17:58:03 server  40  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 17:58:17 server  40  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 17:58:17 server  44  INFO     授权失败，服务停止
+card_service Sun, 26 Apr 2020 17:58:46 server  40  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 17:58:46 server  44  INFO     授权失败，服务停止
+card_service Sun, 26 Apr 2020 17:59:14 server  40  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 17:59:14 server  44  INFO     授权失败，服务停止
+card_service Sun, 26 Apr 2020 18:13:05 server  43  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:14:44 server  43  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:14:45 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:14:50 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:14:52 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:14:53 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:14:54 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:14:55 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:14:56 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:14:58 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:14:59 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:15:01 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:15:03 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:15:07 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:15:09 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:15:10 server  35  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:17:42 server  45  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:17:44 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:17:49 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:17:50 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:17:52 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:17:52 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:17:53 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:17:54 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:17:55 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:17:56 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:17:57 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:17:58 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:18:00 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:18:01 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:18:02 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:18:03 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:18:04 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:18:05 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:18:05 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:18:06 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:18:06 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:18:06 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:18:07 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:18:07 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:18:07 server  37  INFO     测试接口【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:26:46 server  83  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:27:28 server  82  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:28:47 server  82  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:29:43 server  82  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:30:27 server  82  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:30:28 server  59  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:30:48 server  59  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:31:19 server  59  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0, 'data': {}}】
+card_service Sun, 26 Apr 2020 18:38:46 server  82  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:39:15 server  82  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:39:41 server  82  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:41:22 server  82  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:41:22 server  89  INFO     授权失败，服务停止
+card_service Sun, 26 Apr 2020 18:42:16 server  82  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:42:16 server  92  INFO     授权失败，服务停止
+card_service Sun, 26 Apr 2020 18:46:47 server  82  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:46:47 server  92  INFO     授权失败，
+card_service Sun, 26 Apr 2020 18:47:18 server  82  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:47:18 server  92  INFO     授权失败，
+card_service Sun, 26 Apr 2020 18:47:32 server  82  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:47:32 server  92  INFO     授权失败，
+card_service Sun, 26 Apr 2020 18:47:58 server  82  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:49:16 server  83  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:49:16 server  93  INFO     授权失败，
+card_service Sun, 26 Apr 2020 18:49:37 server  83  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 18:49:49 server  60  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 18:56:43 server  60  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 19:10:59 server  91  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 19:11:41 server  91  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 19:11:43 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 19:11:46 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 19:11:48 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 19:23:47 server  97  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 19:24:23 server  97  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 19:25:08 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 19:25:10 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 19:25:13 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 19:25:14 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 19:26:24 server  98  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 19:26:31 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 19:27:20 server  98  INFO     开始启动【接口服务】
+card_service Sun, 26 Apr 2020 19:27:28 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 19:27:30 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 19:27:33 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Sun, 26 Apr 2020 19:27:43 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:43:12 server  100  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 09:43:27 server  100  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 09:44:03 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:44:06 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:44:07 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:44:08 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:44:09 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:44:10 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:44:11 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:44:12 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:44:17 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:44:56 server  101  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 09:45:28 server  101  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 09:45:38 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:45:42 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:45:46 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:45:47 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:45:58 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:45:59 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:11 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:12 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:13 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:13 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:14 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:14 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:14 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:14 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:15 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:15 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:15 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:16 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:17 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:17 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:18 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:18 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:18 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:19 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:19 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:20 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:20 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:20 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:21 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:21 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:21 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:22 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:22 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:23 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 09:46:23 server  61  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 10:03:28 server  115  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 10:04:33 server  115  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 10:05:22 server  115  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 10:05:23 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 10:05:27 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 10:06:47 server  116  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 10:06:48 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 10:06:57 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 10:07:01 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:07:05 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:08:39 server  116  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 10:08:43 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 10:08:45 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 10:08:52 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 10:08:53 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 10:08:54 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:08:55 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:11:36 server  117  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 10:12:06 server  118  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 10:12:15 server  118  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 10:12:21 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 10:12:22 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 10:12:24 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 10:12:41 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 10:12:43 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:12:46 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:12:49 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:12:51 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:12:52 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:12:58 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:12:59 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:13:00 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:13:01 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:13:02 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:13:03 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:13:04 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:13:05 server  51  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 10:43:34 server  120  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 10:43:34 server  130  INFO     授权失败，
+card_service Mon, 27 Apr 2020 11:00:05 server  131  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 11:00:11 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 11:00:13 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 11:01:14 server  131  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 11:01:17 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:20 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:21 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:21 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:22 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:25 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:26 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:27 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:27 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:42 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:42 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:42 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:43 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:43 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:01:44 server  31  ERROR    调用次数限制，【auth】
+card_service Mon, 27 Apr 2020 11:05:22 server  131  INFO     开始启动【接口服务】
+card_service Mon, 27 Apr 2020 11:05:25 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Mon, 27 Apr 2020 11:05:26 server  64  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Tue, 28 Apr 2020 16:54:45 server  123  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 16:55:03 server  24  ERROR    调用次数限制，【auth】
+card_service Tue, 28 Apr 2020 16:55:03 server  24  ERROR    调用次数限制，【auth】
+card_service Tue, 28 Apr 2020 16:55:10 server  24  ERROR    调用次数限制，【auth】
+card_service Tue, 28 Apr 2020 16:55:10 server  24  ERROR    调用次数限制，【auth】
+card_service Tue, 28 Apr 2020 16:58:17 server  123  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 17:10:04 server  124  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 17:10:31 server  57  INFO     接口 EncodeInit【调试】
+card_service Tue, 28 Apr 2020 17:11:11 server  124  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 17:11:23 server  57  INFO     接口 EncodeInit【调试】
+card_service Tue, 28 Apr 2020 17:11:23 card_service  15  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Tue, 28 Apr 2020 17:25:35 server  124  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 17:25:38 server  57  INFO     接口 EncodeInit【调试】
+card_service Tue, 28 Apr 2020 17:25:38 card_service  29  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Tue, 28 Apr 2020 17:26:25 server  124  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 17:26:28 server  57  INFO     接口 EncodeInit【调试】
+card_service Tue, 28 Apr 2020 17:26:28 card_service  29  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Tue, 28 Apr 2020 17:26:33 server  57  INFO     接口 EncodeInit【调试】
+card_service Tue, 28 Apr 2020 17:26:33 card_service  29  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0, 'data': {}}】
+card_service Tue, 28 Apr 2020 17:27:20 server  124  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 17:27:32 server  57  INFO     接口 EncodeInit【调试】
+card_service Tue, 28 Apr 2020 17:27:32 card_service  29  INFO     测试接口 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Tue, 28 Apr 2020 17:30:06 server  126  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 17:30:09 server  59  INFO     接口 EncodeInit【调试】
+card_service Tue, 28 Apr 2020 17:30:09 card_service  29  INFO      读取门锁Ini文件 EncodeInit【 {'message': {'a': 1}, 'code': 0}】
+card_service Tue, 28 Apr 2020 17:30:09 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【88080369】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 17:30:09 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 17:30:55 server  59  INFO     接口 EncodeInit【调试】
+card_service Tue, 28 Apr 2020 17:30:55 card_service  29  INFO      读取门锁Ini文件 EncodeInit【 {'message': {'a': 1}, 'code': 0, 'data': {}}】
+card_service Tue, 28 Apr 2020 17:30:55 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【86704113】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 17:30:55 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 17:31:33 server  59  INFO     接口 EncodeInit【调试】
+card_service Tue, 28 Apr 2020 17:31:33 card_service  29  INFO      读取门锁Ini文件 EncodeInit【 {'message': {'a': 1}, 'code': 0, 'data': {}}】
+card_service Tue, 28 Apr 2020 17:31:33 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【87556081】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 17:31:33 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 17:37:10 server  126  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 17:37:28 server  59  INFO     接口 EncodeInit【调试】
+card_service Tue, 28 Apr 2020 17:37:28 card_service  29  INFO      读取门锁Ini文件 EncodeInit
+card_service Tue, 28 Apr 2020 17:37:28 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【65521】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 17:37:28 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 17:38:05 server  126  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 17:38:18 server  59  INFO     接口 EncodeInit【调试】
+card_service Tue, 28 Apr 2020 17:38:18 card_service  29  INFO      读取门锁Ini文件 EncodeInit
+card_service Tue, 28 Apr 2020 17:38:18 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【86114289】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 17:38:19 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 17:42:30 server  126  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 17:42:34 server  75  INFO     测试接口 EncodeExit【 {'message': {'a': 1}, 'code': 0}】
+card_service Tue, 28 Apr 2020 17:42:34 server  48  DEBUG    同一返回结果，【{'message': 'success', 'code': 0}】
+card_service Tue, 28 Apr 2020 17:42:34 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:22:35 server  126  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 18:22:42 server  63  INFO     测试接口MakeGuestCard【 {'message': {'a': 1}, 'code': 0}】
+card_service Tue, 28 Apr 2020 18:22:42 card_service  37  INFO      制宾客卡 MakeGuestCard
+card_service Tue, 28 Apr 2020 18:22:42 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【65527】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 18:22:42 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:25:54 server  63  INFO     测试接口MakeGuestCard【 {'message': {'a': 1}, 'code': 0, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:25:54 card_service  37  INFO      制宾客卡 MakeGuestCard
+card_service Tue, 28 Apr 2020 18:25:54 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【65527】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 18:25:54 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:27:42 server  132  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 18:28:17 server  132  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 18:28:23 server  63  INFO     接口 MakeGuestCard【调试】
+card_service Tue, 28 Apr 2020 18:28:23 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:31:45 server  138  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 18:31:49 server  63  INFO     接口 MakeGuestCard【调试】
+card_service Tue, 28 Apr 2020 18:31:49 server  48  DEBUG    同一返回结果，【{'message': '检查参数', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 18:31:49 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:32:03 server  63  INFO     接口 MakeGuestCard【调试】
+card_service Tue, 28 Apr 2020 18:32:03 server  48  DEBUG    同一返回结果，【{'message': '检查参数', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 18:32:03 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:32:30 server  63  INFO     接口 MakeGuestCard【调试】
+card_service Tue, 28 Apr 2020 18:32:30 server  48  DEBUG    同一返回结果，【{'message': '检查参数', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 18:32:30 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:33:04 server  63  INFO     接口 MakeGuestCard【调试】
+card_service Tue, 28 Apr 2020 18:33:04 server  48  DEBUG    同一返回结果，【{'message': '检查参数', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 18:33:04 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:33:24 server  63  INFO     接口 MakeGuestCard【调试】
+card_service Tue, 28 Apr 2020 18:33:24 server  48  DEBUG    同一返回结果，【{'message': '检查参数', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 18:33:24 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:33:49 server  139  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 18:33:52 server  63  INFO     接口 MakeGuestCard【调试】
+card_service Tue, 28 Apr 2020 18:33:52 server  48  DEBUG    同一返回结果，【{'message': '检查参数', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 18:33:52 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:34:31 server  140  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 18:34:35 server  63  INFO     接口 MakeGuestCard【调试】
+card_service Tue, 28 Apr 2020 18:34:35 server  48  DEBUG    同一返回结果，【{'message': '检查参数', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 18:34:35 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:35:14 server  141  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 18:35:15 server  63  INFO     接口 MakeGuestCard【调试】
+card_service Tue, 28 Apr 2020 18:35:15 server  48  DEBUG    同一返回结果，【{'message': '检查参数', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 18:35:15 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:35:31 server  141  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 18:35:33 server  63  INFO     接口 MakeGuestCard【调试】
+card_service Tue, 28 Apr 2020 18:35:34 card_service  37  INFO      制宾客卡 MakeGuestCard
+card_service Tue, 28 Apr 2020 18:35:34 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 18:36:57 server  141  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 18:37:00 server  63  INFO     接口 MakeGuestCard【调试】
+card_service Tue, 28 Apr 2020 18:37:00 card_service  37  INFO      制宾客卡 MakeGuestCard
+card_service Tue, 28 Apr 2020 18:37:00 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【65527】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 18:37:00 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:00:42 server  169  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 19:00:58 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:01:28 server  169  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 19:01:30 server  104  INFO     接口 ClearCardData【调试】
+card_service Tue, 28 Apr 2020 19:01:30 server  48  DEBUG    同一返回结果，【{'message': '检查参数', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:01:30 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:01:46 server  104  INFO     接口 ClearCardData【调试】
+card_service Tue, 28 Apr 2020 19:01:46 card_service  78  INFO      清空卡片内容 ClearCardData
+card_service Tue, 28 Apr 2020 19:01:46 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【65527】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:01:46 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:02:02 server  104  INFO     接口 ClearCardData【调试】
+card_service Tue, 28 Apr 2020 19:02:02 card_service  78  INFO      清空卡片内容 ClearCardData
+card_service Tue, 28 Apr 2020 19:02:02 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【65527】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:02:02 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:02:42 server  83  INFO     接口 ReadCard【调试】
+card_service Tue, 28 Apr 2020 19:02:42 card_service  54  INFO      读卡内容
+card_service Tue, 28 Apr 2020 19:02:42 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:03:43 server  169  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 19:03:47 server  83  INFO     接口 ReadCard【调试】
+card_service Tue, 28 Apr 2020 19:03:47 server  48  DEBUG    同一返回结果，【{'message': '检查参数.', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:03:47 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:04:18 server  83  INFO     接口 ReadCard【调试】
+card_service Tue, 28 Apr 2020 19:04:18 server  48  DEBUG    同一返回结果，【{'message': '检查参数.', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:04:18 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:04:24 server  83  INFO     接口 ReadCard【调试】
+card_service Tue, 28 Apr 2020 19:04:24 server  48  DEBUG    同一返回结果，【{'message': '检查参数.', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:04:24 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:06:19 server  171  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 19:06:21 server  84  INFO     接口 ReadCard【调试】
+card_service Tue, 28 Apr 2020 19:06:21 server  48  DEBUG    同一返回结果，【{'message': '检查参数', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:06:21 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:06:56 server  173  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 19:06:59 server  84  INFO     接口 ReadCard【调试】
+card_service Tue, 28 Apr 2020 19:06:59 server  48  DEBUG    同一返回结果，【{'message': '检查参数', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:06:59 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:07:55 server  173  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 19:07:59 server  84  INFO     接口 ReadCard【调试】
+card_service Tue, 28 Apr 2020 19:07:59 card_service  54  INFO      读卡内容
+card_service Tue, 28 Apr 2020 19:07:59 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【65527】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:07:59 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:08:08 server  84  INFO     接口 ReadCard【调试】
+card_service Tue, 28 Apr 2020 19:08:08 server  48  DEBUG    同一返回结果，【{'message': '检查参数', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:08:08 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:08:15 server  84  INFO     接口 ReadCard【调试】
+card_service Tue, 28 Apr 2020 19:08:15 card_service  54  INFO      读卡内容
+card_service Tue, 28 Apr 2020 19:08:15 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【65527】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:08:15 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:09:47 server  173  INFO     开始启动【接口服务】
+card_service Tue, 28 Apr 2020 19:09:52 server  84  INFO     接口 ReadCard【调试】
+card_service Tue, 28 Apr 2020 19:09:52 card_service  54  INFO      读卡内容
+card_service Tue, 28 Apr 2020 19:09:52 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【65527】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:09:52 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:18:48 server  84  INFO     接口 ReadCard【调试】
+card_service Tue, 28 Apr 2020 19:18:48 card_service  54  INFO      读卡内容
+card_service Tue, 28 Apr 2020 19:18:48 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【65527】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:18:48 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Tue, 28 Apr 2020 19:18:52 server  84  INFO     接口 ReadCard【调试】
+card_service Tue, 28 Apr 2020 19:18:52 card_service  54  INFO      读卡内容
+card_service Tue, 28 Apr 2020 19:18:52 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【65527】', 'code': 1, 'data': []}】
+card_service Tue, 28 Apr 2020 19:18:52 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
