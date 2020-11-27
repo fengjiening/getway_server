@@ -9,7 +9,7 @@ card_service Sun, 26 Apr 2020 16:41:54 server  31  INFO     启动 service_inter
 card_service Sun, 26 Apr 2020 16:43:30 server  31  INFO     启动 service_interface 【接口服务】
 card_service Sun, 26 Apr 2020 16:44:21 server  33  INFO     启动 service_interface 【接口服务】
 card_service Sun, 26 Apr 2020 16:45:23 server  33  INFO     启动 service_interface 【接口服务】
-card_service Sun, 26 Apr 2020 16:46:23 server  33  INFO     启动 service_interface 【接口服务】
+card_service Sun, 26 Apr 2020 16:46:23 server  33  INFO     启动 service_interface 【接口服务】11
 card_service Sun111, 26 Apr 2020 16:46:25 server  33  INFO     启动 service_interface 【接口服务】
 card_service Sun, 26 Apr 2020 16:46:38 server  28  INFO     测试接口【 {'code': 0, 'message': 'success', 'data': {'a': 1}}】
 card_service Sun, 26 Apr 2020 16:46:38 server  29  INFO     com【 1】
