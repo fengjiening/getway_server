@@ -1,6 +1,6 @@
 
 from flask_cors import CORS
-from flask import Flask,redirect
+from flask import Flask,redirect,session
 from util.subprocess import register
 from flask import request,jsonify
 from util.jt_logging import JtLogging
@@ -11,116 +11,37 @@ logger =JtLogging.getLogger("card_service")
 
 Re = R.init()
 reg = register()
-card= Service(logger,Re)
+#card= Service(logger,Re)
 key_data =reg.Encrypted(reg.getCombinNumber())
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'fjn'
 # r'/*' 是通配符，让本服务器所有的 URL 都允许跨域请求
 CORS(app, resources=r'/*')
 
 @app.before_request
 def before_request():
     print(request.args)
-    flag = True
-    if flag:
-       if compare_time():
-           logger.error("调用次数限制，【service】")
-           return jsonify(R.auth())
-       else:
-           result = []
-           if request.path.find("EncodeInit") > 0:
-               # (读门锁参数设置，打开端口)
-               result = EncodeInit()
-           elif request.path.find("MakeGuestCard") > 0:
-               # 制客人卡
-               result = MakeGuestCard(request.args)
-           elif request.path.find("ReadCard") > 0:
-               # 读卡
-               result = ReadCard(request.args)
-           elif request.path.find("ClearCardData") > 0:
-               # 清空卡片
-               result = ClearCardData(request.args)
-           elif request.path.find("EncodeExit") > 0:
-               # 关闭发卡机端口
-               result = EncodeExit()
-           else:
-               result = undfind()
-
-           logger.debug("同一返回结果，【%s】"%result)
-           return jsonify(result)
+    key  = session.get("keyName")
+    if key:
+        return None
     else:
-        logger.error("机器码不一致，【service】")
-        return jsonify(R.auth())
+        logger.error("【 检验过期时间 】")
+        if compare_time():
+            logger.error("【 检验时间失败 】")
+            return jsonify(R.auth())
+        else:
+           logger.info("【 检验时间成功 】")
+           session["keyName"] =True
 
+
+
+@app.route('/index')
+def index():
+    return "welcome index"
 
 def undfind():
     return R.error({},"接口未找到")
 
-def EncodeInit():
-    logger.info("接口 EncodeInit【调试】")
-    return card.EncodeInit()
-
-def MakeGuestCard(a):
-    logger.info("接口 MakeGuestCard【调试】")
-    rom = a.get("rom")
-    room = a.get("room")
-    starttime=a.get("starttime")
-    endtime=a.get("endtime")
-    enOverride = a.get("enOverride")
-    try:
-        rom = int(rom)
-        enOverride = int(enOverride)
-        room=int(room)
-        starttime=starttime.split(",")
-        endtime=endtime.split(",")
-    except Exception as e:
-        print(e)
-        return R.error([],"检查参数")
-    if len(starttime) == 5 and len(endtime) == 5 and enOverride and rom and room:
-         return card.MakeGuestCard(rom,room,starttime,endtime,enOverride )
-    else:
-        return R.error([], "检查参数.")
-
-def ReadCard(a):
-    logger.info("接口 ReadCard【调试】")
-    rom=a.get("rom")
-    room = a.get("room")
-    starttime=a.get("starttime")
-    endtime=a.get("endtime")
-    enOverride = a.get("enOverride")
-
-    try:
-        rom = int(rom)
-        enOverride = int(enOverride)
-        room=int(room)
-        starttime=starttime.split(",")
-        endtime=endtime.split(",")
-    except Exception as e:
-        print(e)
-        return R.error([],"检查参数")
-    if (enOverride):
-        print(enOverride)
-    if len(starttime)==5 and len(endtime)==5 and enOverride and rom and room:
-         return card.ReadCard(rom,room,starttime,endtime,enOverride )
-    else:
-        return R.error([], "检查参数.")
-
-def ClearCardData(a):
-    logger.info("接口 ClearCardData【调试】")
-    rom = a.get("rom")
-    try:
-        rom = int(rom)
-    except Exception as e:
-        print(e)
-        return R.error([], "检查参数")
-
-    if rom:
-        return card.ClearCardData(rom)
-    else:
-        return R.error([], "检查参数.")
-
-def EncodeExit():
-    logger.info("接口 EncodeExit【调试】")
-    return card.EncodeExit()
 
 def checkAuth():
     return key_data==Configuration.CARD_KEY
@@ -171,17 +92,13 @@ def compare_time():
 
 if __name__ == '__main__':
     logger.info("开始启动【接口服务】" )
-    message = "config.ini 未找到"
-    key = Configuration.CONFIG_FLAG
-    if key:
-        message = "授权失败，"
-        key =checkAuth()
-
+    message = "授权失败"
+    key = checkAuth()
     if key:
          port=int(Configuration.SERVER_PORT)
          app.run(host="0.0.0.0",port=port, debug=False)
     else:
-        logger.info("授权失败，")
+        logger.info("授权失败")
         import time
         for i in range(10):
             print("%s 服务停止!【%s秒后退出】"%(message,10-i))

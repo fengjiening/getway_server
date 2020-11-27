@@ -376,3 +376,52 @@ card_service Tue, 28 Apr 2020 19:18:52 server  84  INFO     接口 ReadCard【�
 card_service Tue, 28 Apr 2020 19:18:52 card_service  54  INFO      读卡内容
 card_service Tue, 28 Apr 2020 19:18:52 server  48  DEBUG    同一返回结果，【{'message': '操作失败:::ERROR_CODE【65527】', 'code': 1, 'data': []}】
 card_service Tue, 28 Apr 2020 19:18:52 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Fri, 27 Nov 2020 18:32:06 server  173  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 18:32:06 server  184  INFO     授权失败，
+card_service Fri, 27 Nov 2020 18:34:13 server  173  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 18:34:24 server  184  INFO     授权失败
+card_service Fri, 27 Nov 2020 18:34:45 server  173  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 18:35:04 server  184  INFO     授权失败
+card_service Fri, 27 Nov 2020 18:35:39 server  173  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 18:35:39 server  181  INFO     授权失败
+card_service Fri, 27 Nov 2020 18:35:54 server  173  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 18:36:20 server  173  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 18:36:20 server  181  INFO     授权失败
+card_service Fri, 27 Nov 2020 18:36:57 server  173  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 18:37:11 server  173  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 18:37:11 server  181  INFO     授权失败
+card_service Fri, 27 Nov 2020 18:38:33 server  173  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 18:38:33 server  180  INFO     授权失败
+card_service Fri, 27 Nov 2020 18:39:08 server  173  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 18:41:02 server  26  ERROR    调用次数限制，【service】
+card_service Fri, 27 Nov 2020 18:41:02 server  26  ERROR    调用次数限制，【service】
+card_service Fri, 27 Nov 2020 18:41:18 server  26  ERROR    调用次数限制，【service】
+card_service Fri, 27 Nov 2020 18:41:18 server  26  ERROR    调用次数限制，【service】
+card_service Fri, 27 Nov 2020 18:43:28 server  173  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 18:43:34 server  59  INFO     接口 EncodeInit【调试】
+card_service Fri, 27 Nov 2020 18:43:34 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Fri, 27 Nov 2020 18:45:48 server  176  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 18:46:00 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Fri, 27 Nov 2020 18:46:00 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Fri, 27 Nov 2020 18:46:10 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Fri, 27 Nov 2020 18:46:10 server  48  DEBUG    同一返回结果，【{'message': '接口未找到', 'code': 1, 'data': {}}】
+card_service Fri, 27 Nov 2020 18:57:43 server  86  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 19:04:27 server  91  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 19:06:14 server  93  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 19:06:20 server  27  ERROR    【 检验过期时间 】
+card_service Fri, 27 Nov 2020 19:06:20 server  32  ERROR    【 检验时间成功 】
+card_service Fri, 27 Nov 2020 19:06:20 server  27  ERROR    【 检验过期时间 】
+card_service Fri, 27 Nov 2020 19:06:20 server  32  ERROR    【 检验时间成功 】
+card_service Fri, 27 Nov 2020 19:07:53 server  93  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 19:08:00 server  27  ERROR    【 检验过期时间 】
+card_service Fri, 27 Nov 2020 19:08:00 server  32  ERROR    【 检验时间成功 】
+card_service Fri, 27 Nov 2020 19:08:00 server  27  ERROR    【 检验过期时间 】
+card_service Fri, 27 Nov 2020 19:08:00 server  32  ERROR    【 检验时间成功 】
+card_service Fri, 27 Nov 2020 19:10:56 server  93  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 19:11:00 server  27  ERROR    【 检验过期时间 】
+card_service Fri, 27 Nov 2020 19:11:00 server  32  INFO     【 检验时间成功 】
+card_service Fri, 27 Nov 2020 19:11:00 server  27  ERROR    【 检验过期时间 】
+card_service Fri, 27 Nov 2020 19:11:00 server  32  INFO     【 检验时间成功 】
+card_service Fri, 27 Nov 2020 19:12:23 server  94  INFO     开始启动【接口服务】
+card_service Fri, 27 Nov 2020 19:13:32 server  28  ERROR    【 检验过期时间 】
+card_service Fri, 27 Nov 2020 19:13:32 server  33  INFO     【 检验时间成功 】
