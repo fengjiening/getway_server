@@ -21,6 +21,7 @@ class Service:
             CDLL(self.path+"\Sdtapi.dll")
             CDLL(self.path+"\WltRS.dll")
             self.flag = True
+            self.InitComm(int(Configuration.CARD_COM))
             logger.info("加载所需要的DLL成功")
         except Exception as e:
             logger.info("加载所需要的DLL失败")
@@ -91,15 +92,14 @@ class Service:
         print(str(Agency.value, "gbk"))
         print(str(ExpireStart.value, "gbk"))
         print(str(ExpireEnd.value, "gbk"))
-        self.CloseComm();
-        return str(Name.value, "gbk"),str(Gender.value, "gbk"),str(Folk.value, "gbk"),str(BirthDay.value, "gbk"),str(Code.value, "gbk"),str(Address.value, "gbk"),str(Agency.value, "gbk"),str(ExpireStart.value, "gbk"),str(ExpireEnd.value, "gbk")
+        return str(Name.value, "gbk"),str(Gender.value, "gbk"),str(Folk.value, "gbk"),'',str(Code.value, "gbk"),str(Address.value, "gbk"),str(Agency.value, "gbk"),str(ExpireStart.value, "gbk"),str(ExpireEnd.value, "gbk")
 
     def getHeadImg(self):
         # 读取图片
         import base64,os
         image_base64 = None
         #img_save_path = os.path.join(os.environ['BASE_PATH'], 'frontend', 'static', 'media', 'work_ticket', 'Photo.jpg')
-        img_save_path =self.path+"/photo.jpg"
+        img_save_path =self.path+"/photo.bmp"
         if os.path.exists(img_save_path):
             with open(img_save_path, 'rb') as f:
                 ls_f = base64.b64encode(f.read())

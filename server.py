@@ -37,13 +37,11 @@ def before_request():
            session["keyName"] =True
 
 
-
 @app.route('/index')
 def index():
     data={}
     rets =None
     import time
-    a.InitComm(int(Configuration.CARD_COM))
     print("开始")
     while 1:
         r = a.Authenticate()
@@ -63,6 +61,10 @@ def index():
             break
         time.sleep(2)
     return jsonify(R.dSuccess(data,"success"))
+
+@app.route('/face')
+def face():
+    return jsonify(R.success("success"))
 
 def undfind():
     return R.error({},"接口未找到")
