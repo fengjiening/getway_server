@@ -506,3 +506,30 @@ card_service Sat, 28 Nov 2020 17:09:00 card_service  15  INFO     sdk加载路�
 card_service Sat, 28 Nov 2020 17:09:00 card_service  24  INFO     加载所需要的DLL成功
 card_service Sat, 28 Nov 2020 17:09:00 server  119  INFO     开始启动【接口服务】
 card_service Sat, 28 Nov 2020 17:09:00 server  126  INFO     【接口服务】 启动成功
+card_service Mon, 30 Nov 2020 23:06:40 card_service  15  INFO     sdk加载路径：lib
+card_service Mon, 30 Nov 2020 23:06:40 card_service  24  INFO     加载所需要的DLL成功
+card_service Mon, 30 Nov 2020 23:06:40 server  119  INFO     开始启动【接口服务】
+card_service Mon, 30 Nov 2020 23:06:40 server  130  INFO     授权失败
+card_service Mon, 30 Nov 2020 23:06:40 server  134  INFO     授权失败 服务停止!
+card_service Mon, 30 Nov 2020 23:08:03 card_service  15  INFO     sdk加载路径：lib
+card_service Mon, 30 Nov 2020 23:08:03 card_service  24  INFO     加载所需要的DLL成功
+card_service Mon, 30 Nov 2020 23:08:03 server  119  INFO     开始启动【接口服务】
+card_service Mon, 30 Nov 2020 23:08:03 server  130  INFO     授权失败
+card_service Mon, 30 Nov 2020 23:08:03 server  134  INFO     授权失败 服务停止!
+card_service Mon, 30 Nov 2020 23:08:15 card_service  15  INFO     sdk加载路径：lib
+card_service Mon, 30 Nov 2020 23:08:15 card_service  24  INFO     加载所需要的DLL成功
+card_service Mon, 30 Nov 2020 23:08:15 server  119  INFO     开始启动【接口服务】
+card_service Mon, 30 Nov 2020 23:08:15 server  130  INFO     授权失败
+card_service Mon, 30 Nov 2020 23:08:15 server  134  INFO     授权失败 服务停止!
+card_service Mon, 30 Nov 2020 23:08:58 card_service  15  INFO     sdk加载路径：lib
+card_service Mon, 30 Nov 2020 23:08:58 card_service  24  INFO     加载所需要的DLL成功
+card_service Mon, 30 Nov 2020 23:08:58 server  119  INFO     开始启动【接口服务】
+card_service Mon, 30 Nov 2020 23:08:58 server  126  INFO     【接口服务】 启动成功
+card_service Mon, 30 Nov 2020 23:09:21 server  31  ERROR    【 检验过期时间 】
+card_service Mon, 30 Nov 2020 23:09:21 server  31  ERROR    【 检验过期时间 】
+card_service Mon, 30 Nov 2020 23:11:00 card_service  15  INFO     sdk加载路径：lib
+card_service Mon, 30 Nov 2020 23:11:00 card_service  24  INFO     加载所需要的DLL成功
+card_service Mon, 30 Nov 2020 23:11:00 server  119  INFO     开始启动【接口服务】
+card_service Mon, 30 Nov 2020 23:11:00 server  126  INFO     【接口服务】 启动成功
+card_service Mon, 30 Nov 2020 23:11:04 server  31  ERROR    【 检验过期时间 】
+card_service Mon, 30 Nov 2020 23:11:04 server  36  INFO     【 检验时间成功 】

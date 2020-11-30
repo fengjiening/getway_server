@@ -85,7 +85,7 @@ class Service:
         print(str(Name.value, "gbk"))
         print(str(Gender.value, "gbk"))
         print(str(Folk.value, "gbk"))
-        print(str(BirthDay.value, "gbk"))
+        #print(str(BirthDay.value, "gbk"))
         print(str(Code.value, "gbk"))
         print(str(Address.value, "gbk"))
         print(str(Agency.value, "gbk"))

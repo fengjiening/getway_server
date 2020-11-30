@@ -105,7 +105,7 @@ def set():
 def compare_time():
     import datetime
     time1 = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    time2=reg.DesDecrypt(Configuration.devkey)
+    time2=reg.DesDecrypt(Configuration.DEVKEY)
     d1 = datetime.datetime.strptime(time1, '%Y-%m-%d %H:%M:%S')
     d2 = datetime.datetime.strptime(time2, '%Y-%m-%d %H:%M:%S')
     delta = d1 - d2
