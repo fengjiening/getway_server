@@ -1,6 +1,6 @@
 from util.subprocess import register
 
-appkey="40:EC:99:48:33:9DBFEBFBFF000906EA0025_38A1_01B6_6020."
+appkey="B8:E1:20:52:41:53BFEBFBFF000906E9170396718404664"
 devkey="2020-11-29 00:00:00"
 reg = register()
 print("加密")
