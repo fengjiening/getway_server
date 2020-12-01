@@ -7,6 +7,8 @@ from util.jt_logging import JtLogging
 from service.card_service import Service
 from constants.configuration import Configuration
 from constants.result import R
+from service.card_service import  Service
+
 logger =JtLogging.getLogger("card_service")
 
 Re = R.init()
@@ -17,6 +19,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'fjn'
 # r'/*' 是通配符，让本服务器所有的 URL 都允许跨域请求
 CORS(app, resources=r'/*')
+a=Service(logger,Re)
 
 @app.before_request
 def before_request():
@@ -34,17 +37,41 @@ def before_request():
            session["keyName"] =True
 
 
-
 @app.route('/index')
 def index():
-    return "welcome index"
+    data={}
+    rets =None
+    import time
+    print("开始")
+    while 1:
+        r = a.Authenticate()
+        print(r)
+        if r == 1:
+            rets = a.Routon_DecideIDCardType()
+            Name,Gender ,Folk,BirthDay,Code ,Address ,Agency ,ExpireStart ,ExpireEnd=a.read(rets)
+            data["Name"]=Name
+            data["Gender"]=Folk
+            data["BirthDay"]=BirthDay
+            data["Code"]=Code
+            data["Address"]=Address
+            data["Agency"]=Agency
+            data["ExpireStart"]=ExpireStart
+            data["ExpireEnd"]=ExpireEnd
+            data["headImg"]=a.getHeadImg()
+            break
+        time.sleep(2)
+    return jsonify(R.dSuccess(data,"success"))
+
+@app.route('/face')
+def face():
+    return jsonify(R.success("success"))
 
 def undfind():
     return R.error({},"接口未找到")
 
 
 def checkAuth():
-    return key_data==Configuration.CARD_KEY
+    return key_data==Configuration.APPKEY
 
 def set():
     import os
@@ -80,7 +107,7 @@ def set():
 def compare_time():
     import datetime
     time1 = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    time2=reg.DesDecrypt(Configuration.CARD_KEY1)
+    time2=reg.DesDecrypt(Configuration.DEVKEY)
     d1 = datetime.datetime.strptime(time1, '%Y-%m-%d %H:%M:%S')
     d2 = datetime.datetime.strptime(time2, '%Y-%m-%d %H:%M:%S')
     delta = d1 - d2
@@ -93,16 +120,28 @@ def compare_time():
 if __name__ == '__main__':
     logger.info("开始启动【接口服务】" )
     message = "授权失败"
-    key = checkAuth()
-    if key:
-         port=int(Configuration.SERVER_PORT)
-         app.run(host="0.0.0.0",port=port, debug=False)
+    flag=True
+    if Configuration.CONFIG_FLAG:
+        key = checkAuth()
+        if key:
+             flag=False
+             logger.info("【接口服务】 启动成功" )
+             port=int(Configuration.SERVER_PORT)
+             app.run(host="0.0.0.0",port=port, debug=False)
+        else:
+            logger.info("授权失败")
+            message = "授权失败"
     else:
-        logger.info("授权失败")
+        message = "config.ini未找到"
+    logger.info("%s 服务停止!"%(message))
+    if flag:
         import time
         for i in range(10):
+
             print("%s 服务停止!【%s秒后退出】"%(message,10-i))
             time.sleep(1)
+
+
 
 
 

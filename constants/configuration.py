@@ -9,27 +9,23 @@ class Configuration(object):
     USE_TIME=10
     BASE_PATH = "d:/"
     CWD=BASE_PATH+"card_server"
-    AUTH_PATH = "%s/" % CWD
-    LOG_PATH  = "%s/log/" % CWD
-    CONFIG_FILE = "%s/config.ini"  % CWD
     CONFIG_FILE1 = "config.ini"
+    #CONFIG_FILE1 = "E:\project\getway_server\config.ini"
+
     CARD_COM=1
-    CARD_KEY=2
-    CARD_KEY1=3
     TIME=-1
     SERVER_PORT=8888
-    INIPATH=""
     config = configparser.ConfigParser()
     try:
         config.readfp(codecs.open(CONFIG_FILE1, "r", "utf-8-sig"))
-        CONFIG_FLAG=True
         CARD_COM = config.get('card', 'card_com')
-        CARD_KEY = config.get('card', 'appkey')
-        CARD_KEY1 = config.get('card', 'devkey')
+        APPKEY = config.get('card', 'appkey')
+        DEVKEY = config.get('card', 'devkey')
         TIME= config.get('card', 'count')
         SERVER_PORT= config.get('card', 'server_port')
-        INIPATH = config.get('card', 'inipath')
+        CONFIG_FLAG=True
     except Exception as e:
+        print(e)
         CONFIG_FLAG=False
 
 

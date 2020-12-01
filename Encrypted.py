@@ -1,7 +1,7 @@
 from util.subprocess import register
 
-appkey="40:EC:99:48:33:9DBFEBFBFF000906EA0025_38A1_01B6_6020."
-devkey="2020-11-29 00:00:00"
+appkey="72:04:20:52:41:53BFEBFBFF000906E9W9A6GR7A170396718404664"
+devkey="2020-12-29 00:00:00"
 reg = register()
 print("加密")
 print("[appkey :%s]"%reg.Encrypted(appkey))
