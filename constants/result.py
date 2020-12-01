@@ -1,9 +1,5 @@
 class R :
-
-    @classmethod
-    def init(cls):
-        cls.result = {}
-        return cls
+    result = {}
     @classmethod
     def success(cls,message=None):
         if not message:

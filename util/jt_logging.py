@@ -11,9 +11,10 @@ class JtLogging():
 		if cls.logger is None:
 
 			print ("logger is None, config it!!")
-			
+
 			cls.logger = logging.getLogger(classNmae)
-			cls.logger.setLevel(logging.DEBUG)
+			#cls.logger.setLevel(logging.DEBUG)
+			cls.logger.setLevel(Configuration.LOGGING_LEVE)
 
 			formatter = logging.Formatter('%(name)-12s %(asctime)s %(module)s  %(lineno)d  %(levelname)-8s %(message)s', '%a, %d %b %Y %H:%M:%S',)
 			

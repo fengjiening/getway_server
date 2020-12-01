@@ -7,10 +7,9 @@ from util.jt_logging import JtLogging
 from constants.result import R
 class Service:
 
-    def __init__(self,logger,re):
+    def __init__(self,logger):
         self.logger=logger
         self.flag = False
-        self.R=re
         self.path ="lib"
         logger.info("sdk加载路径：%s"% self.path)
         try:
@@ -20,15 +19,21 @@ class Service:
             CDLL(self.path+"\SavePhoto.dll")
             CDLL(self.path+"\Sdtapi.dll")
             CDLL(self.path+"\WltRS.dll")
-            self.flag = True
-            self.InitComm(int(Configuration.CARD_COM))
-            logger.info("加载所需要的DLL成功")
+            logger.info("加载身份证所需要的DLL成功，开始初始化身份证。。。。")
+
+            if self.InitComm(int(Configuration.CARD_COM)):
+                self.flag = True
+                logger.info("初始化身份证成功")
+            else:
+                self.flag = False
+                logger.error("初始化身份证失败")
         except Exception as e:
-            logger.info("加载所需要的DLL失败")
+            logger.error("加载身份证所需要的DLL失败,原因【%s】"%e)
 
     def InitComm(self,com):
-        re = self.card.InitComm(c_int(com))
-        print(re)
+        ret= self.card.InitComm(c_int(com))
+        print(ret)
+        return ret
 
     def CloseComm(self):
         if self.card :

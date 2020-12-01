@@ -568,3 +568,27 @@ card_service Mon, 30 Nov 2020 23:28:05 card_service  15  INFO     sdk加载路�
 card_service Mon, 30 Nov 2020 23:28:05 card_service  25  INFO     加载所需要的DLL成功
 card_service Mon, 30 Nov 2020 23:28:05 server  121  INFO     开始启动【接口服务】
 card_service Mon, 30 Nov 2020 23:28:05 server  128  INFO     【接口服务】 启动成功
+card_service Tue, 01 Dec 2020 09:52:49 card_service  15  INFO     sdk加载路径：lib
+card_service Tue, 01 Dec 2020 09:53:15 card_service  25  INFO     加载所需要的DLL成功
+card_service Tue, 01 Dec 2020 09:53:15 server  121  INFO     开始启动【接口服务】
+card_service Tue, 01 Dec 2020 09:53:15 server  132  INFO     授权失败
+card_service Tue, 01 Dec 2020 09:53:15 server  136  INFO     授权失败 服务停止!
+card_service Tue, 01 Dec 2020 10:01:24 card_service  14  INFO     sdk加载路径：lib
+card_service Tue, 01 Dec 2020 10:01:49 card_service  24  INFO     加载所需要的DLL成功
+card_service Tue, 01 Dec 2020 10:01:49 server  120  INFO     开始启动【接口服务】
+card_service Tue, 01 Dec 2020 10:01:49 server  134  INFO     授权失败 服务停止!
+card_service Tue, 01 Dec 2020 10:04:38 card_service  14  INFO     sdk加载路径：lib
+card_service Tue, 01 Dec 2020 10:04:38 card_service  22  INFO     加载身份证所需要的DLL成功
+card_service Tue, 01 Dec 2020 10:05:03 card_service  29  INFO     初始化身份证成功
+card_service Tue, 01 Dec 2020 10:05:03 server  120  INFO     开始启动【接口服务】
+card_service Tue, 01 Dec 2020 10:05:03 server  134  INFO     授权失败 服务停止!
+card_service Tue, 01 Dec 2020 10:06:30 card_service  14  INFO     sdk加载路径：lib
+card_service Tue, 01 Dec 2020 10:06:30 card_service  22  INFO     加载身份证所需要的DLL成功，初始化
+card_service Tue, 01 Dec 2020 10:06:55 card_service  29  INFO     初始化身份证成功
+card_service Tue, 01 Dec 2020 10:06:55 server  120  INFO     开始启动【接口服务】
+card_service Tue, 01 Dec 2020 10:06:55 server  134  INFO     授权失败 服务停止!
+card_service Tue, 01 Dec 2020 10:07:18 card_service  14  INFO     sdk加载路径：lib
+card_service Tue, 01 Dec 2020 10:07:18 card_service  22  INFO     加载身份证所需要的DLL成功，初始化身份证开始。。。。
+card_service Tue, 01 Dec 2020 10:07:44 card_service  29  INFO     初始化身份证成功
+card_service Tue, 01 Dec 2020 10:07:44 server  120  INFO     开始启动【接口服务】
+card_service Tue, 01 Dec 2020 10:07:44 server  134  INFO     授权失败 服务停止!

@@ -11,7 +11,6 @@ from service.card_service import  Service
 
 logger =JtLogging.getLogger("card_service")
 
-Re = R.init()
 reg = register()
 #card= Service(logger,Re)
 key_data =reg.Encrypted(reg.getCombinNumber())
@@ -19,7 +18,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'fjn'
 # r'/*' 是通配符，让本服务器所有的 URL 都允许跨域请求
 CORS(app, resources=r'/*')
-a=Service(logger,Re)
+card=Service(logger)
 
 @app.before_request
 def before_request():
@@ -44,11 +43,11 @@ def index():
     import time
     print("开始")
     while 1:
-        r = a.Authenticate()
+        r = card.Authenticate()
         print(r)
         if r == 1:
-            rets = a.Routon_DecideIDCardType()
-            Name,Gender ,Folk,BirthDay,Code ,Address ,Agency ,ExpireStart ,ExpireEnd=a.read(rets)
+            rets = card.Routon_DecideIDCardType()
+            Name,Gender ,Folk,BirthDay,Code ,Address ,Agency ,ExpireStart ,ExpireEnd=card.read(rets)
             data["Name"]=Name
             data["Gender"]=Folk
             data["BirthDay"]=BirthDay
@@ -57,7 +56,7 @@ def index():
             data["Agency"]=Agency
             data["ExpireStart"]=ExpireStart
             data["ExpireEnd"]=ExpireEnd
-            data["headImg"]=a.getHeadImg()
+            data["headImg"]=card.getHeadImg()
             break
         time.sleep(2)
     return jsonify(R.dSuccess(data,"success"))
@@ -129,7 +128,6 @@ if __name__ == '__main__':
              port=int(Configuration.SERVER_PORT)
              app.run(host="0.0.0.0",port=port, debug=False)
         else:
-            logger.info("授权失败")
             message = "授权失败"
     else:
         message = "config.ini未找到"
@@ -137,7 +135,6 @@ if __name__ == '__main__':
     if flag:
         import time
         for i in range(10):
-
             print("%s 服务停止!【%s秒后退出】"%(message,10-i))
             time.sleep(1)
 
